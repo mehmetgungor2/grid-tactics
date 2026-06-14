@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: Arial;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 25px;
+
+  padding: 30px;
+}
+
+.info {
+  color: #aaa;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.mode-card {
+  width: 420px;
+
+  background: #1b1b1b;
+
+  border: 1px solid #333;
+
+  border-radius: 20px;
+
+  padding: 25px;
+
+  text-align: center;
+
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.mode-card h2 {
+  margin-top: 0;
+  color: gold;
+}
+
+.mode-card p {
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+}
+
+button {
+  margin-top: 15px;
+
+  padding: 14px 28px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #222;
+
+  color: white;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #444;
+  transform: scale(1.05);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 55px);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 55px;
+  height: 55px;
+
+  background: #222;
+
+  border: 1px solid #333;
+
+  border-radius: 8px;
+
+  transition: 0.1s;
+}
+
+.player {
+  background: lime;
+  box-shadow: 0 0 15px lime;
+}
+
+.resource {
+  background: gold;
+  box-shadow: 0 0 15px gold;
+}
+
+.enemy {
+  background: crimson;
+  box-shadow: 0 0 15px crimson;
+}
+
+.fullscreen-overlay {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0,0,0,0.9);
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.overlay-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.game-over {
+  color: crimson;
+  font-size: 80px;
+  text-shadow: 0 0 20px crimson;
+}
+
+.win {
+  color: lime;
+  font-size: 80px;
+  text-shadow: 0 0 20px lime;
+}
