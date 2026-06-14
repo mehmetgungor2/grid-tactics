@@ -1,11 +1,26 @@
-![Gameplay](./images/gameplay.png)
-![Gameplay](./images/gameplay1.png)
-![Gameplay](./images/gameplay2.png)
 # Grid Tactics
 
 A mini strategy survival game built with React.
 
+---
+
+# Gameplay Screenshots
+
+## Main Gameplay
+
 ![Gameplay](./images/gameplay.png)
+
+---
+
+## Survival Mode
+
+![Gameplay2](./images/gameplay1.png)
+
+---
+
+## Enemy Chase System
+
+![Gameplay3](./images/gameplay2.png)
 
 ---
 
@@ -64,4 +79,4 @@ npm run dev
 
 ## Author
 
-Mehmet Güngör
+Kael Revenant
