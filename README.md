@@ -1,16 +1,67 @@
-# React + Vite
+![Gameplay](./images/gameplay.png)
+![Gameplay](./images/gameplay1.png)
+![Gameplay](./images/gameplay2.png)
+# Grid Tactics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mini strategy survival game built with React.
 
-Currently, two official plugins are available:
+![Gameplay](./images/gameplay.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* WASD movement system
+* Enemy AI chase mechanic
+* Collect Mode
+* Survival Mode
+* Dynamic enemy spawning
+* Score system
+* Timer system
+* Game Over & Win screens
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Controls
+
+| Key | Action     |
+| --- | ---------- |
+| W   | Move Up    |
+| A   | Move Left  |
+| S   | Move Down  |
+| D   | Move Right |
+
+---
+
+## Game Modes
+
+### Collect Mode
+
+Collect yellow energy cubes while escaping enemies and survive as long as possible.
+
+### Survival Mode
+
+Survive for 2 minutes while enemies continuously increase over time.
+
+---
+
+## Tech Stack
+
+* React
+* Vite
+* CSS
+
+---
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## Author
+
+Mehmet Güngör
